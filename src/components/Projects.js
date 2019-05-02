@@ -125,7 +125,7 @@ class Projects extends Component {
                     <Tab>React</Tab>
                 </Tabs>
 
-                <Grid>
+                <Grid className="full-projects-grid">
                     <Cell col={12}>
                         <div className="content">
                             {this.toggleCategories()}
