@@ -7,22 +7,22 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <div className="demo-big-content">
-        <Layout>
-            <Header className="header-color" title="Thomas Chin" scroll>
-                <Navigation>
-                    <a href="/">Home</a>
-                    <a href="/about">About Me</a>
-                    <a href="/resume">Resume</a>
-                    <a href="/projects">Projects</a>
-                </Navigation>
-            </Header>
+      <Layout>
+        <Header className="header-color" title="Thomas Chin" scroll>
+          <Navigation>
+            <a href="/">Home</a>
+            <a href="/about">About Me</a>
+            <a href="/resume">Resume</a>
+            <a href="/projects">Projects</a>
+          </Navigation>ß
+        </Header>
 
-            <Content>
-                <Router>
-                  <BaseRouter />
-                </Router>
-            </Content>
-        </Layout>
+        <Content>
+          <Router>
+            <BaseRouter />
+          </Router>
+        </Content>
+      </Layout>
     </div>
   );
 }
