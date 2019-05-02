@@ -28,6 +28,11 @@ class Home extends Component {
                                 <a href="https://github.com/ThomasChin" rel="noopener noreferrer" target="_blank">
                                     <i class="fab fa-github-square"></i>
                                 </a>
+
+                                {/* Email */}
+                                <a href="mailto:tchin10@outlook.com" rel="noopener noreferrer" target="_blank">
+                                    <i class="fas fa-envelope-square"></i>
+                                </a>
                             </div>
                         </div>
                     </Cell>

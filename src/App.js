@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Content} from 'react-mdl';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
 import BaseRouter from './routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -14,7 +14,6 @@ function App() {
                     <a href="/about">About Me</a>
                     <a href="/resume">Resume</a>
                     <a href="/projects">Projects</a>
-                    <a href="/contact">Contact</a>
                 </Navigation>
             </Header>
 
