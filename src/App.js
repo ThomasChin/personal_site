@@ -14,7 +14,7 @@ function App() {
             <a href="/about">About Me</a>
             <a href="/resume">Resume</a>
             <a href="/projects">Projects</a>
-          </Navigation>ß
+          </Navigation>
         </Header>
 
         <Content>

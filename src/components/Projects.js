@@ -9,7 +9,6 @@ class Projects extends Component {
       };
     }
 
-
     toggleCategories() {
       if(this.state.activeTab === 0) {
         return (
