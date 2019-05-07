@@ -13,7 +13,7 @@ class Home extends Component {
               className="aqua-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Full Stack Software Engineer</h1>
               <hr/>
               <p>
                 Python | Django | JavaScript | React | Redux

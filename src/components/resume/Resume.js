@@ -53,19 +53,23 @@ class Resume extends Component {
 
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
-                progress={100}
-              />
-              <Skills
-                skill="HTML/CSS"
+                skill="Python"
                 progress={80}
               />
               <Skills
-                skill="NodeJS"
-                progress={50}
+                skill="Django"
+                progress={75}
               />
               <Skills
-                skill="React"
+                skill="Java"
+                progress={45}
+              />
+              <Skills
+                skill="JavaScript"
+                progress={40}
+              />
+              <Skills
+                skill="React | Redux"
                 progress={25}
               />
           </Cell>
