@@ -16,7 +16,7 @@ class Home extends Component {
               <h1>Full Stack Software Engineer</h1>
               <hr/>
               <p>
-                Python | Django | JavaScript | React | Redux
+                Python | Django | React | Redux | Docker
               </p>
               <div className="social-links">
                 {/* LinkedIn */}

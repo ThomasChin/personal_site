@@ -15,13 +15,15 @@ class Projects extends Component {
           <div className="projects-grid">
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://static.djangoproject.com/img/logos/django-logo-negative.png) center / cover'}}>
-                COMING SOON
+                Lead Manager
               </CardTitle>
               <CardText>
-                Coming Soon
+                A full stack web application for managing leads with full user authentication. Uses Django Rest Framework and SQLite for the back-end.
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <a href="https://github.com/ThomasChin/lead-manager" rel="noopener noreferrer" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
                 <Button colored>Project Site</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
@@ -67,13 +69,16 @@ class Projects extends Component {
           <div className="projects-grid">
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
               <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                COMING SOON
+                Lead Manager
               </CardTitle>
               <CardText>
-                Coming Soon
+                A full stack web application for managing leads with full user authentication. Uses React for UI and Redux for managing state and 
+                connecting to the Django back-end.
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <a href="https://github.com/ThomasChin/lead-manager" rel="noopener noreferrer" target="_blank">
+                  <Button colored>GitHub</Button>
+                </a>
                 <Button colored>Project Site</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>

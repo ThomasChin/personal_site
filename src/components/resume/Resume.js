@@ -21,7 +21,8 @@ class Resume extends Component {
             <h2 style={{paddingTop: '.3em'}}>Thomas Chin</h2>
             <h4>Software Engineer (Intern)</h4>
             <hr style={{borderTop: '3px solid orange', width: '100%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Software engineer interested in full stack web development and DevOps. Experienced with
+             multiple languages as well as web application development and deployment.</p>
             <hr style={{borderTop: '3px solid orange', width: '50%'}}/>
             <h5>Email</h5>
             <p>tchin10@outlook.com</p>
@@ -34,44 +35,63 @@ class Resume extends Component {
               endYear={2020}
               schoolName="Seattle University"
               schoolDescription="Bachelors in Computer Science | GPA: 3.7"
+              coursework="Data Structures | Design and Analysis of Algorithms |
+              Object Oriented Development | Fundamentals of Databases | Languages and Computation 
+              | Computer Organization | Discrete Mathematics | Probability and Statistics"
                />
-              <hr style={{borderTop: '3px solid #fff'}} />
+            <hr style={{borderTop: '3px solid #fff'}} />
+
             <h2>Experience</h2>
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear='Nov. 2018'
+                endYear='Present'
+                jobName="Full Stack and Ops Engineer"
+                company="at ModusBox"
+                jobDescription="Developed production-ready, user-facing APIs using Django Rest Framework and write
+                complementary React components using Redux on the front-end. Integrated software with AWS Cognito for
+                user authentication and Docker-compose for deployment."
               />
-              <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                />
+            <Experience
+              startYear='Jun. 2017'
+              endYear='Aug. 2017'
+              jobName="Programming Instructor"
+              company="at Coding with Kids"
+              jobDescription="Planned and lectured weekly computer science curriculum reviewing core computer science fundamentals in pseudo-code and Java to classes of 8 or more students from grades
+               1 – 8 resulting in students’ increased understanding of basic concepts.
+              Mentored students with individual coding projects from ideation through project completion by offering one-on-one coaching resulting 
+              in students presenting projects that demonstrated competence"
+            />
               <hr style={{borderTop: '3px solid #fff'}} />
 
-              <h2>Skills</h2>
-              <Skills
-                skill="Python"
-                progress={80}
-              />
-              <Skills
-                skill="Django"
-                progress={75}
-              />
-              <Skills
-                skill="Java"
-                progress={45}
-              />
-              <Skills
-                skill="JavaScript"
-                progress={40}
-              />
-              <Skills
-                skill="React | Redux"
-                progress={25}
-              />
+            <h2>Skills</h2>
+            <Skills
+              skill="Python"
+              progress={80}
+            />
+            <Skills
+              skill="Django"
+              progress={75}
+            />
+            <Skills
+              skill="Java"
+              progress={45}
+            />
+            <Skills
+              skill="SQL"
+              progress={45}
+            />
+            <Skills
+              skill="Docker"
+              progress={40}
+            />
+            <Skills
+              skill="JavaScript"
+              progress={40}
+            />
+            <Skills
+              skill="React | Redux"
+              progress={25}
+            />
           </Cell>
         </Grid>
       </div>
