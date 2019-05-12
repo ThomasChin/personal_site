@@ -9,17 +9,15 @@ function App() {
     <div className="demo-big-content">
       <Layout>
         <Header className="header-color" title="Thomas Chin" scroll>
-          <Navigation>
-            <a href="/">Home</a>
-            <a href="/about">About Me</a>
-            <a href="/resume">Resume</a>
-            <a href="/projects">Projects</a>
-          </Navigation>
+        <Navigation>
+            <a style={{ fontWeight: 'bold', opacity: 1 }} href="/">Home</a>
+            <a style={{ fontWeight: 'bold', opacity: 1 }} href="/about">About Me</a>
+            <a style={{ fontWeight: 'bold', opacity: 1  }} href="/resume">Resume</a>
+            <a style={{ fontWeight: 'bold', opacity: 1  }} href="/projects">Projects</a>
+        </Navigation>
         </Header>
 
-        <Content style={{  
-          background: '-webkit-linear-gradient(to right, #5B86E5, #36D1DC)',
-          background: 'linear-gradient(to right, #5B86E5, #36D1DC)' }}>
+        <Content style={{ background: 'linear-gradient(to right, #5B86E5, #36D1DC)' }}>
           <Router>
             <BaseRouter />
           </Router>
