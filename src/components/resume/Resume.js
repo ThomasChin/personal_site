@@ -18,34 +18,22 @@ class Resume extends Component {
                  />
             </div>
 
-            <h2 style={{paddingTop: '.3em'}}>Thomas Chin</h2>
-            <h4>Software Engineer (Intern)</h4>
-            <hr style={{borderTop: '3px solid orange', width: '100%'}}/>
-            <p>Software engineer interested in full stack web development and DevOps. Experienced with
+            <h2 style={{paddingTop: '.3em', color: '#fff'}}>Thomas Chin</h2>
+            <h4 style={{color: '#fff'}}>Software Engineer (Intern)</h4>
+            <hr style={{borderTop: '3px solid #fff', width: '100%'}}/>
+            <p style={{color: '#fff'}}>Software engineer interested in full stack web development and DevOps. Experienced with
              multiple languages as well as web application development and deployment.</p>
-            <hr style={{borderTop: '3px solid orange', width: '50%'}}/>
-            <h5>Email</h5>
-            <p>tchin10@outlook.com</p>
+            <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
+            <h5 style={{color: '#fff'}}>Email</h5>
+            <p style={{color: '#fff'}}>tchin10@outlook.com</p>
             <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
-            <Education
-              startYear={2016}
-              endYear={2020}
-              schoolName="Seattle University"
-              schoolDescription="Bachelors in Computer Science | GPA: 3.7"
-              coursework="Data Structures | Design and Analysis of Algorithms |
-              Object Oriented Development | Fundamentals of Databases | Languages and Computation 
-              | Computer Organization | Discrete Mathematics | Probability and Statistics"
-               />
-            <hr style={{borderTop: '3px solid #fff'}} />
-
             <h2>Experience</h2>
             <Experience
                 startYear='Nov. 2018'
                 endYear='Present'
-                jobName="Full Stack and Ops Engineer"
+                jobName="Full Stack and Ops Engineering Intern"
                 company="at ModusBox"
                 jobDescription="Developed production-ready, user-facing APIs using Django Rest Framework and write
                 complementary React components using Redux on the front-end. Integrated software with AWS Cognito for
@@ -61,7 +49,21 @@ class Resume extends Component {
               Mentored students with individual coding projects from ideation through project completion by offering one-on-one coaching resulting 
               in students presenting projects that demonstrated competence"
             />
-              <hr style={{borderTop: '3px solid #fff'}} />
+
+            <hr style={{borderTop: '3px solid #fff'}} />
+
+            <h2>Education</h2>
+            <Education
+              startYear={2016}
+              endYear={2020}
+              schoolName="Seattle University"
+              schoolDescription="Bachelors in Computer Science | GPA: 3.7"
+              coursework="Data Structures | Design and Analysis of Algorithms |
+              Object Oriented Development | Fundamentals of Databases | Languages and Computation 
+              | Computer Organization | Discrete Mathematics | Probability and Statistics"
+               />
+
+            <hr style={{borderTop: '3px solid #fff'}} />
 
             <h2>Skills</h2>
             <Skills

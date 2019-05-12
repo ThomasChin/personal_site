@@ -124,18 +124,20 @@ class Projects extends Component {
 
   render() {
     return(
-      <div className="category-tabs">
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Django</Tab>
-          <Tab>React</Tab>
-        </Tabs>
+      <div>
+        <div className="category-tabs">
+          <Tabs style={{color: '#fff'}} activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+            <Tab>Django</Tab>
+            <Tab>React</Tab>
+          </Tabs>
+        </div>
 
         <Grid className="full-projects-grid">
-          <Cell col={12}>
-            <div className="content">
-              {this.toggleCategories()}
-            </div>
-          </Cell>
+            <Cell col={12}>
+              <div className="content">
+                {this.toggleCategories()}
+              </div>
+            </Cell>
         </Grid>
       </div>
     )

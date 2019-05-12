@@ -17,7 +17,9 @@ function App() {
           </Navigation>
         </Header>
 
-        <Content>
+        <Content style={{  
+          background: '-webkit-linear-gradient(to right, #5B86E5, #36D1DC)',
+          background: 'linear-gradient(to right, #5B86E5, #36D1DC)' }}>
           <Router>
             <BaseRouter />
           </Router>
