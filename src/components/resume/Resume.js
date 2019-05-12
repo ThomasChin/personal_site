@@ -23,7 +23,7 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid #fff', width: '100%'}}/>
             <p style={{color: '#fff'}}>Software engineer interested in full stack web development and DevOps. Experienced with
              multiple languages as well as web application development and deployment.</p>
-            <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #fff', width: '75%'}}/>
             <h5 style={{color: '#fff'}}>Email</h5>
             <p style={{color: '#fff'}}>tchin10@outlook.com</p>
             <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
